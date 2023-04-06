@@ -1,0 +1,97 @@
+/* SELECTOR */
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* SELECTORS */
+/* Tags, IDs, Classes */
+/* Tag Selectors */
+body {
+    background-color: black;
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+}
+
+p {
+    color: pink;
+}
+
+/* HTML elements have display: */
+/* display v. visibility */
+.highlighted {
+    color:green;
+    background-color: yellow;
+    /*display: none; /* Removes from FLOW of document */
+    /*visibility: hidden; /* DOES NOT CHANGE FLOW */
+}
+
+/* Categories */
+/* TEXT PROPERTIES, BOX PROPERTIES, POSITIONING PROPERTIES */
+
+/* TEXT */
+.sample {
+    /* Box Properties*/
+    /* width: 50%; */
+    /* Text Properties*/
+    color: rgb(50, 167, 222);
+    line-height: 1rem; /* Absolute Length*/
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* Display Property */
+    /* inline, block, grid, flex, table, none */
+}
+
+span {
+    display: inline;
+}
+
+.red {
+    color: rgb(143, 47, 137);
+    background-color: rgb(235, 214, 214);
+}
+
+/* Relative Units */
+/* % - a percentage of the parent element */
+/* em - relative to parent element's font size, one "em" is one character's size */
+/* rem - "root em" */
+/* vw - "viewport width" 1% of the total viewport width if 1024px wide, 1vw : 10.24px */
+/* vh - "viewport height" 1% of total height
+
+
+/* Normal Flow */
+/* Block and Inline */
+/* Block Elements */
+/*
+<div>
+<h1> - <h6>
+<ol>
+<ul>
+<li>
+<p>
+<section>
+*/
+
+/* Inline Elements */
+/*
+<a>
+<b>
+<button>
+<em>
+<i>
+<img/>
+<span>
+
+Ignore the 'height' property
+
+*/
+
+/* Generic Buddies */
+/* <div> - Block style generic element */
+/* <span> - Inline style generic element */
+
+
+
